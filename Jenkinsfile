@@ -1,7 +1,7 @@
 pipeline {
     //agent { docker 'node:6.3' }
     agent {
-      Dockerfile = true
+      dockerfile true
     }
     environment {
       PATH='$PATH:/usr/local/bin'
